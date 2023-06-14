@@ -14,6 +14,7 @@
 		0AEE28622A399D960096FC6D /* CombineTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE28612A399D960096FC6D /* CombineTestTests.swift */; };
 		0AEE286C2A399D960096FC6D /* CombineTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE286B2A399D960096FC6D /* CombineTestUITests.swift */; };
 		0AEE286E2A399D960096FC6D /* CombineTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE286D2A399D960096FC6D /* CombineTestUITestsLaunchTests.swift */; };
+		0AEE287D2A39B4CB0096FC6D /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE287C2A39B4CB0096FC6D /* CounterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0AEE28672A399D960096FC6D /* CombineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombineTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEE286B2A399D960096FC6D /* CombineTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTestUITests.swift; sourceTree = "<group>"; };
 		0AEE286D2A399D960096FC6D /* CombineTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AEE287C2A39B4CB0096FC6D /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				0AEE28522A399D940096FC6D /* ContentView.swift */,
 				0AEE28542A399D960096FC6D /* Assets.xcassets */,
 				0AEE28562A399D960096FC6D /* Preview Content */,
+				0AEE287C2A39B4CB0096FC6D /* CounterViewModel.swift */,
 			);
 			path = CombineTest;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				0AEE28532A399D940096FC6D /* ContentView.swift in Sources */,
 				0AEE28512A399D940096FC6D /* CombineTestApp.swift in Sources */,
+				0AEE287D2A39B4CB0096FC6D /* CounterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

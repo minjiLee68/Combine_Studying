@@ -6,16 +6,28 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    @StateObject var viewModel = CounterViewModel()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Count : \(viewModel.count)")
+                .font(.title2)
+            
+            Button {
+                viewModel.increment()
+            } label: {
+                Text(viewModel.text)
+                    .font(.title)
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+
         }
-        .padding()
     }
 }
 
