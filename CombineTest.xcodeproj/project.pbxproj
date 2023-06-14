@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1C023E2A39B76000C055B8 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C023D2A39B76000C055B8 /* TodoItem.swift */; };
+		0A1C02402A39B78C00C055B8 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C023F2A39B78C00C055B8 /* TodoListViewModel.swift */; };
 		0AEE28512A399D940096FC6D /* CombineTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE28502A399D940096FC6D /* CombineTestApp.swift */; };
 		0AEE28532A399D940096FC6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE28522A399D940096FC6D /* ContentView.swift */; };
 		0AEE28552A399D960096FC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AEE28542A399D960096FC6D /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1C023D2A39B76000C055B8 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		0A1C023F2A39B78C00C055B8 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 		0AEE284D2A399D940096FC6D /* CombineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEE28502A399D940096FC6D /* CombineTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTestApp.swift; sourceTree = "<group>"; };
 		0AEE28522A399D940096FC6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				0AEE28542A399D960096FC6D /* Assets.xcassets */,
 				0AEE28562A399D960096FC6D /* Preview Content */,
 				0AEE287C2A39B4CB0096FC6D /* CounterViewModel.swift */,
+				0A1C023D2A39B76000C055B8 /* TodoItem.swift */,
+				0A1C023F2A39B78C00C055B8 /* TodoListViewModel.swift */,
 			);
 			path = CombineTest;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			files = (
 				0AEE28532A399D940096FC6D /* ContentView.swift in Sources */,
 				0AEE28512A399D940096FC6D /* CombineTestApp.swift in Sources */,
+				0A1C023E2A39B76000C055B8 /* TodoItem.swift in Sources */,
 				0AEE287D2A39B4CB0096FC6D /* CounterViewModel.swift in Sources */,
+				0A1C02402A39B78C00C055B8 /* TodoListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
